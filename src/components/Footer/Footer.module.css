@@ -1,0 +1,233 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bgWhite {
+  width: 100%;
+  background-color: white;
+  padding: 30px 100px;
+  border-bottom: 2px solid #ed3237;
+}
+
+.pFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dFlex {
+  display: flex;
+  align-items: center;
+}
+
+.pFlex p {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pFlex p span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dInp {
+  border: 1px solid rgba(0, 0, 0, 0.114);
+  padding: 0px 0px 0px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inp {
+  width: 300px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+}
+
+.bInp {
+  width: 50px;
+  background-color: #ed3237;
+  border: none;
+  padding: 5px 0px 9px;
+  font-size: 15px;
+  color: white;
+}
+
+.bInp:hover {
+  background-color: rgb(255, 94, 0);
+}
+
+.icons {
+  padding-right: 100px;
+  color: rgb(76, 76, 76);
+}
+
+.icon {
+  margin-right: 10px;
+  color: rgb(76, 76, 76);
+  font-size: 13px;
+}
+
+.icon:hover {
+  color: #ed3237;
+  cursor: pointer;
+}
+
+.pIcon {
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.Fdiv {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+}
+
+.fCDiv {
+  width: 25%;
+}
+
+.fCDiv img {
+  width: 100%;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.fCDiv p {
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0, 0.697);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.fCDiv p:hover {
+  color: #ed3237;
+  cursor: pointer;
+}
+
+.fCDiv h4 {
+  color: rgba(0, 0, 0, 0.639);
+  margin-bottom: 30px;
+}
+
+.blackDivFooter{
+  background-color: black;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.blackDivFooter p{
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+
+.blackDivFooter p span{
+  color: #ed3237;
+  cursor: pointer;
+}
+
+.blackDivFooter img{
+  height: 32px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .bgWhite {
+    padding: 30px;
+  }
+
+  .dFlex {
+    width: 100%;
+    margin: 0px 0px 25px;
+    justify-content: center;
+  }
+
+  .inp {
+    width: 430px;
+  }
+
+  .icons {
+    padding-right: 80px;
+  }
+  .Fdiv {
+    padding: 30px 10px 30px 5px;
+  }
+  .fCDiv h4 {
+    font-size: 21px;
+  }
+  .blackDivFooter{
+    padding: 20px;
+  }
+
+  .blackDivFooter p{
+    padding: 0px;
+    width: 50%;
+    text-align: left;
+    line-height: 16px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .bgWhite {
+    padding: 30px 10px;
+  }
+
+  .pFlex {
+    text-align: center;
+    justify-content: center;
+  }
+  .pIcon {
+    font-size: 35px;
+  }
+
+  .inp {
+    width: 300px;
+  }
+
+  .dInp {
+    margin-bottom: 20px;
+  }
+
+  .icons {
+    padding: 0px;
+  }
+  .pSize {
+    width: 240px;
+  }
+  .Fdiv {
+    padding: 20px 10px;
+    display: block;
+  }
+  .fCDiv {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .blackDivFooter{
+    display: block;
+    padding: 10px;
+  }
+  .blackDivFooter p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .blackDivFooter img{
+    height: 28px;
+  }
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.aboutText {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aboutText p {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.aboutText span {
+  color: black;
+  font-size: 14px;
+  padding: 0px 4px;
+  font-weight: 500;
+}
+
+.homeHover:hover {
+  color: #db4a39;
+}

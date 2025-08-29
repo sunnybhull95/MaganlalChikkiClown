@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mDiv{
+    padding: 20px 100px;
+    background-color: #6666661d;
+}
+
+.flexDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:0px) and (max-width:900px) {
+    
+    .mDiv{
+        padding: 20px;
+    }
+.flexDiv{
+    display: block;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    
+    .mDiv{
+        padding: 10px;
+    }
+    .flexDiv{
+        display: block;
+    }
+}

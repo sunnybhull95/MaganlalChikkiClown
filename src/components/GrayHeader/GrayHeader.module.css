@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bgGray {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 38px;
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.d1 {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.p2 {
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 0px !important;
+  color: #666666;
+}
+
+.a1 {
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  color: #ed3237;
+}
+
+.bgBtnP {
+  display: flex;
+  /* align-items: center; */
+}
+
+.bgBtn {
+  position: relative;
+}
+
+.btns {
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  padding: 0px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.english {
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  padding: 0px 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inr {
+  border: none;
+  padding: 0px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btns:hover {
+  color: #ed3237;
+}
+
+.dropdownlist {
+  display: none; /* Hide the list by default */
+  position: absolute;
+  top: 160%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: max-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-size: 13px;
+}
+
+.dropdownlist li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.dropdownlist li:hover {
+  background-color: #f0f0f0;
+  color: red;
+}
+
+.bgBtn:hover .dropdownlist {
+  display: block; /* Show the list when hovering over the parent */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .bgGray {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .bgGray {
+    padding: 10px;
+  }
+  .d1 {
+    display: none;
+  }
+  .bgBtnP {
+    text-align: center;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+  .bgGray {
+    padding: 5px;
+  }
+}

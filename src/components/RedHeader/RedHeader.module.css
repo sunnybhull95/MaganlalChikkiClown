@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.redheader {
+  background-image: url(../../images/bg-header.jpg);
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px 0px;
+  flex-wrap: wrap;
+}
+
+.flex2 {
+  display: flex;
+  color: white;
+  padding-right: 300px;
+  font-size: 14px;
+}
+
+.special {
+  color: white;
+  font-size: 24px;
+  margin-left: 150px;
+  font-family: "Poppins";
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.learn {
+  color: white;
+}
+
+.learn:hover {
+  color: #ed3237;
+  cursor: pointer;
+}
+
+.p1 {
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1100px) {
+  .flex1 {
+    padding: 10px 20px;
+  }
+
+  .special {
+    margin-left: 0px;
+  }
+
+  .flex2 {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .flex1 {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+  .special {
+    margin-bottom: 10px;
+  }
+
+  .p1 {
+    font-size: 11px;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .learn {
+    font-size: 11px;
+  }
+  .flex2 {
+    justify-content: center;
+  }
+  .btn {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 360px) {
+  .p1,
+  .learn {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .flex1 {
+    padding: 10px;
+  }
+  .special {
+    margin-left: 100px;
+  }
+}

@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pDiv {
+  padding: 20px 100px;
+  background-color: #6666661d;
+}
+
+.chikkiDiv {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-right: 10px;
+}
+
+.innerDiv1 {
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  border-top-left-radius: 3px;
+}
+
+.pink {
+  background-color: #e9597e;
+}
+
+.blue {
+  background-color: #449df0;
+}
+
+.golden {
+  background-color: #f59b31;
+}
+
+.pinkBorder {
+  border-top: 2px solid #e9597e;
+}
+.blueBorder {
+  border-top: 2px solid #449df0;
+}
+.goldenBorder {
+  border-top: 2px solid #f59b31;
+}
+
+.innerDiv1 img {
+  margin-right: 10px;
+  height: 15px;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.ul li {
+  list-style-type: none;
+  margin-left: 20px;
+  color: black;
+  padding-top: 8px;
+}
+
+.pinkHover li:hover {
+  color: #e9597e;
+  cursor: pointer;
+}
+
+.blueHover li:hover {
+  color: #449df0;
+  cursor: pointer;
+}
+.goldenHover li:hover {
+  color: #f59b31;
+  cursor: pointer;
+}
+
+.pRelative {
+  position: relative;
+  padding-top: 8px;
+  display: none;
+}
+
+.pRelative button {
+  padding: 5px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(195, 195, 195);
+  border: white;
+  border-radius: 3px;
+}
+
+.modalUl {
+  background-color: white;
+  /* border: 1px solid black; */
+  color: black;
+  text-align: left !important;
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  width: 200px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.366);
+  z-index: 1;
+}
+
+.modalUl ul {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.modalUl ul li {
+  list-style-type: none;
+  padding: 10px 30px 10px 10px;
+}
+
+.pinkHover .active {
+  color: #e9597e !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blueHover .active {
+  color: #449df0 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.goldenHover .active {
+  color: #f59b31 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .pDiv {
+    padding: 20px;
+  }
+  .ul {
+    display: none;
+  }
+  .chikkiDiv {
+    padding-right: 40px;
+  }
+  .pRelative {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .pDiv {
+    padding: 10px;
+  }
+  .chikkiDiv {
+    padding-right: 10px;
+  }
+  .innerDiv1 {
+    /* width: 80px; */
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .innerDiv1 img {
+    display: none;
+  }
+  .pRelative {
+    padding-top: 5px;
+  }
+}

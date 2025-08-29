@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pDiv {
+  padding: 30px 100px;
+  background-color: #6666661d;
+}
+
+.inpDiv {
+  width: 100%;
+  background-color: white;
+  padding: 30px 20px 40px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.inpDiv p {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inpDiv input {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  font-size: 13px;
+}
+
+.inpDiv textarea {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  font-size: 13px;
+}
+
+.inpDiv button {
+  padding: 10px 5px;
+  background-color: #ff395c;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  width: 145px;
+  border: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.address {
+  margin-top: 30px;
+  font-size: 12px;
+  position: relative;
+  padding-right: 20px;
+}
+
+.address::before {
+  content: "";
+  position: absolute;
+  right: 0; /* Align the line to the right of the text */
+  top: 50%; /* Center the line vertically */
+  /* transform: translateY(-50%); */
+  width: 95.5%; /* Width of the line */
+  height: 1px; /* Height of the line */
+  background-color: black; /* Color of the line */
+}
+
+.textDiv1 h5 {
+  font-weight: 600;
+  color: #666;
+}
+
+.textDiv1 p {
+  font-size: 16px;
+  margin: 5px 0px;
+  color: #666;
+}
+
+.textDiv1 span {
+  color: rgba(0, 0, 0, 0.843);
+}
+
+.textDiv1 span:hover {
+  color: #ed3237;
+  cursor: pointer;
+}
+
+.map {
+  padding-bottom: 60px;
+  background-color: #6666661d;
+}
+
+iframe {
+  border: 7px solid white;
+}
+
+/* Pop-up styling */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 999;
+  animation: fadeIn 0.5s ease-in-out;
+  width: 30%;
+}
+
+.popupContent {
+  position: relative;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #28a745;
+}
+
+.popupContent h2 {
+  color: #28a745;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.popupContent p {
+  font-size: 18px;
+  color: #333;
+}
+
+.popupContent .highlight {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 5px;
+}
+
+/* Close (X) Button */
+.closeBtn {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #28a7467d !important;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+.closeBtn:hover {
+  color: #ed3237 !important;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -55%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .pDiv {
+    padding: 20px 10px;
+  }
+  .address::before {
+    width: 93%;
+  }
+  .popup{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .pDiv {
+    padding: 10px;
+  }
+  .address::before {
+    width: 82%;
+  }
+
+  .flexDiv{
+    display: block;
+  }
+  .inpDiv input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .inpDiv textarea{
+    margin-top: 0px;
+  }
+  .popup{
+    width: 100%;
+  }
+}

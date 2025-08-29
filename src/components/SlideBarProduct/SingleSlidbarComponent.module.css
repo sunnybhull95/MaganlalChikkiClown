@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.sliderContainer {
+  background-color: white;
+  width: 32%;
+}
+
+.sliderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  width: 100%;
+  padding: 7px 15px;
+  color: white;
+}
+
+.sliderHeader h2 {
+  font-size: 15px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.sliderHeader h2 img {
+  width: 17px;
+  margin-right: 15px;
+}
+
+.sliderButtons button {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-top: -10px;
+}
+.sliderButtons button:hover {
+  color: red;
+}
+
+.productsContainer {
+  width: 100%;
+  display: block;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  transition: all 3s ease-in-out; /* Smooth transition */
+}
+
+.productCard {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  text-align: center;
+  transition: all 3s ease-in-out; /* Smooth transition on each card */
+  display: flex;
+}
+
+.productImage {
+  width: 35%;
+  height: 35%;
+  border-radius: 5px;
+}
+
+.productText h3 {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.productText {
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.productText p {
+  margin: 0px !important;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.greenBg {
+  background-color: #6fbf1d;
+}
+
+.redBg {
+  background-color: #b5361c;
+}
+
+.blueBg {
+  background-color: #64c0d1;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .sliderContainer {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .productText h3 {
+    font-size: 15px !important;
+    margin-bottom: 10px;
+  }
+
+  .productImage {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .sliderContainer {
+    width: 100%;
+  }
+  .productImage {
+    width: 35%;
+    height: 35%;
+  }
+  
+  .productText h3 {
+    font-size: 12px !important;
+    margin-bottom: 10px;
+  }
+  .price{
+    font-size: 15px;
+  }
+}

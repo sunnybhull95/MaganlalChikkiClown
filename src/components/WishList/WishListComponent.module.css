@@ -1,0 +1,183 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mDiv {
+  padding: 20px 100px;
+  background-color: #6666661d;
+}
+
+.removeButton {
+  width: 35px;
+  height: 35px;
+  color: #d11e1e;
+  border: none;
+  padding: 0px 0px 4px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: unset;
+  margin: 0px 0px 0px 20px;
+  font-size: 20px;
+}
+
+.removeButton:hover {
+  background-color: #d11e1e;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.277);
+  border-collapse: collapse;
+}
+
+.whiteDiv {
+  background-color: white;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+h4 {
+  margin-bottom: 40px;
+}
+
+tbody tr:hover {
+  background-color: #6666661d;
+}
+
+.noWishlistText {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.695);
+}
+
+.pTitle {
+  padding: 0px 20px;
+  margin: 0px;
+}
+.pTitle:hover {
+  cursor: pointer;
+  color: #d11e1e;
+}
+.deleteButton {
+  display: none;
+}
+
+.successMessage {
+  background-color: #ffffff;
+  color: #4a7c2f;
+  padding: 10px;
+  border-top: 5px solid #8dc63f;
+  border-bottom: 1px solid #8ec63f60;
+  border-left: 1px solid #8ec63f60;
+  border-right: 1px solid #8ec63f60;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.img {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .mDiv {
+    padding: 40px 20px;
+  }
+
+  .removeButton {
+    margin: 0px 0px 0px 7px;
+  }
+  .deleteButton {
+    display: none;
+  }
+  .img {
+    width: 100% !important;
+    padding: 0px;
+  }
+  td {
+    padding: 5px !important;
+  }
+  .pTitle{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .mDiv {
+    padding: 20px 10px;
+  }
+  table {
+    display: block !important;
+    width: 100%;
+  }
+  tbody {
+    display: block;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .whiteDiv {
+    padding: 10px 10px;
+  }
+  /* Hide the first th (remove button column) in mobile view */
+  table thead tr th:first-child {
+    display: none;
+  }
+  table thead tr th:nth-child(2) {
+    display: none;
+  }
+  table thead tr th:nth-child(3) {
+    display: none;
+  }
+  table,
+  th,
+  tr,
+  td {
+    border: none !important;
+  }
+  table,
+  th,
+  tr {
+    position: relative !important;
+  }
+  .pTitle {
+    padding: 0px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .img {
+    width: 100% !important;
+    padding: 5px;
+  }
+
+  .removeButton {
+    width: none;
+    height: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .deleteButton {
+    display: block;
+  }
+  .close {
+    display: none;
+  }
+
+}

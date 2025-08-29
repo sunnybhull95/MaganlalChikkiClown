@@ -1,0 +1,28 @@
+.mainDivC {
+  padding: 20px 100px;
+  background-color: #6666661d;
+}
+
+.img{
+  width: 100%;
+  height: 500px;
+  /* object-fit:fill; */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .mainDivC {
+    padding: 20px;
+  }
+  .img{
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .mainDivC {
+    padding: 10px;
+  }
+  .img{
+    height: 200px;
+  }
+}

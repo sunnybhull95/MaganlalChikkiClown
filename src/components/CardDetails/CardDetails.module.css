@@ -1,0 +1,569 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mDiv {
+  padding: 20px 100px;
+  background-color: #6666661d;
+}
+
+.aboutText {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aboutText p {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.aboutText span {
+  color: black;
+  font-size: 14px;
+  padding: 0px 4px;
+  font-weight: 500;
+}
+
+.flexDiv {
+  display: flex;
+  width: 100%;
+}
+
+.cDiv1 {
+  width: 23%;
+  margin-right: 30px;
+}
+
+.cDiv1 img {
+  width: 100%;
+}
+
+.cDiv2 {
+  width: 75%;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.zoomDiv {
+  width: fit-content;
+  overflow: hidden;
+  height: fit-content;
+  cursor: zoom-in;
+  border-radius: 5px;
+}
+
+.zoomDiv img {
+  object-fit: cover;
+  transition: transform 0.05s ease, transform-origin 0.05s ease;
+  pointer-events: none; /* Prevent cursor interference */
+}
+
+.textDiv {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.detailDiv p {
+  margin: 0px 0px 5px;
+}
+
+.detailDiv {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+
+.price {
+  color: #ff395c;
+  font-weight: 600;
+}
+
+.icons {
+  margin: 20px 0px !important;
+}
+
+.icon1 {
+  margin-right: 10px;
+  background-color: #3b5998;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon2 {
+  margin-right: 10px;
+  background-color: #1da1f2;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon3 {
+  margin-right: 10px;
+  background-color: #db4a39;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.flexInfromationDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerDiv1 {
+  width: 23%;
+}
+
+.innerDiv2 {
+  width: 75%;
+  /* display: flex; */
+}
+
+.flexChild {
+  display: flex;
+}
+.flexChild p {
+  cursor: pointer;
+  padding: 5px 0px;
+  margin: 20px 10px 0px;
+  display: inline-block;
+}
+
+.activeTab {
+  color: #ff395c;
+  font-weight: bold;
+  border-bottom: 2px solid #ff395c;
+  text-transform: uppercase;
+}
+
+.flexChild2 {
+  margin: 20px 0px;
+  font-size: 13px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.buttonsDiv {
+  display: flex;
+  align-items: center;
+}
+
+.addToCartButton {
+  background-color: #ff395c;
+  padding: 7px 17px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.addToCartButton:hover {
+  background-color: #fd113d;
+}
+
+.wishlistButton {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  border: 1px solid #ff395c;
+  color: #ff395c;
+  padding-bottom: 1px;
+}
+
+.wishlistButton:hover {
+  background-color: #ff395c;
+  color: white;
+}
+
+.onClickFunctionDiv {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.461);
+  width: 90px;
+  padding: 5px 8px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.controlButoon {
+  background-color: #6666661d;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  border-radius: 50%;
+  padding-bottom: 3px;
+  border: none;
+}
+
+.toastMessage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  z-index: 9999;
+  font-weight: 700;
+}
+
+.innerDiv3 {
+  width: 75%;
+}
+
+.textRelated {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid #ff395c;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+.relatedItemsSection {
+  margin-top: 50px;
+}
+.relatedItemsGrid {
+  display: flex;
+  gap: 20px;
+}
+.relatedItemCard {
+  width: 150px;
+  cursor: pointer;
+}
+
+.relatedWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.arrowButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.relatedCard {
+  text-align: center;
+}
+
+.relatedCardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.relatedWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+.relatedCard {
+  flex: 0 0 calc(100% / 3); /* 3 products visible at once */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.relatedCradsWidth {
+  width: 270px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.relatedCradsWidth img {
+  width: 100%;
+}
+
+.relatedCradsWidth p {
+  font-size: 14px;
+  text-align: left !important;
+  margin: 5px 0px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.relatedCradsWidth p:hover {
+  color: #ff395c;
+}
+
+.productPrice {
+  font-size: 20px !important;
+  color: #ff395c;
+  font-weight: 500;
+}
+
+.flexRelated {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.arrowButton {
+  margin: 0px 10px;
+  background-color: #cfcfcf;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  margin-bottom: 9px;
+  color: black;
+}
+.arrowButton:hover {
+  background-color: #ff395c;
+  color: white;
+}
+
+.innerDiv4 {
+  width: 23%;
+}
+
+.positioDiv {
+  width: 100%;
+  margin: 0px 0px 10px;
+  position: relative;
+}
+
+.positioAbsDiv {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.431);
+  top: 0px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.relatedCradsWidth:hover .positioAbsDiv {
+  opacity: 1;
+}
+
+.ButtonsKing {
+  width: 0%;
+  margin-top: 10px;
+  opacity: 0;
+  /* transition: all 0.3s ease; */
+  margin-left: 130px;
+  /* float: right; */
+}
+
+.AbsButton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0px 0px 4px;
+  margin: 10px 0px 0px 0px;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.relatedCradsWidth:hover .ButtonsKing {
+  width: 35%;
+  opacity: 1;
+}
+
+.AbsButton:hover {
+  background-color: #ed3237;
+  color: white;
+}
+
+.Pop1,
+.Pop2,
+.Pop3 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 65px;
+  font-size: 11px;
+  padding: 3px;
+  bottom: 6px;
+  left: 38px;
+  border: 1px solid white;
+  opacity: 0;
+  transition: all 0.7s;
+  display: block;
+}
+
+.AbsButton:hover .Pop1 {
+  opacity: 1;
+}
+
+.AbsButton:hover .Pop2 {
+  opacity: 1;
+}
+
+.AbsButton:hover .Pop3 {
+  opacity: 1;
+}
+
+.homeHover:hover{
+  color: #db4a39;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .mDiv {
+    padding: 20px;
+  }
+
+  .cDiv1 {
+    margin-right: 20px;
+    width: 35% !important;
+  }
+
+  .cDiv2 {
+    display: block;
+    padding: 30px;
+    width: 65% !important;
+  }
+  .innerDiv1 {
+    width: 43% !important;
+  }
+  .innerDiv4 {
+    width: 43% !important;
+  }
+  .innerDiv3 {
+    width: 63% !important;
+  }
+
+  .zoomDiv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .zoomDiv img {
+    width: 100% !important;
+  }
+  .icons {
+    margin: 20px 0px 0px !important;
+  }
+  .relatedCradsWidth {
+    width: 140px;
+    padding: 5px 10px;
+  }
+  .relatedCradsWidth p {
+    font-size: 12px !important;
+  }
+  .textDiv {
+    width: 100%;
+  }
+  .sliderContainer {
+    overflow-x: scroll;
+  }
+  .relatedCard {
+    padding: 5px;
+  }
+  .relatedWrapper {
+    margin-top: 5px;
+  }
+  .flexChild p {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .mDiv {
+    padding: 10px;
+  }
+  .flexDiv {
+    display: block;
+  }
+  .cDiv1 {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .cDiv2 {
+    width: 100% !important;
+    padding: 20px;
+  }
+  .textDiv {
+    margin: 0px;
+  }
+  .innerDiv1 {
+    display: none;
+  }
+  .innerDiv2 {
+    width: 100% !important;
+  }
+  .innerDiv3 {
+    width: 100% !important;
+  }
+  .addToCartButton {
+    font-size: 12px;
+  }
+  .flexChild p {
+    padding: 5px 0px;
+    margin: 20px 10px 0px;
+    font-size: 13px;
+  }
+  .flexChild2 {
+    padding: 15px;
+  }
+  .textRelated {
+    font-size: 12px;
+  }
+  .arrowButton {
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+  }
+  .relatedCradsWidth {
+    width: 95px;
+    padding: 5px;
+    font-size: 10px !important;
+  }
+  .relatedCradsWidth p {
+    font-size: 10px !important;
+  }
+  .productPrice {
+    font-size: 10px !important;
+  }
+  .relatedCard {
+    padding: 10px 0px;
+  }
+  .sliderContainer {
+    overflow-x: scroll;
+  }
+}

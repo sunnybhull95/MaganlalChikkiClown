@@ -1,0 +1,130 @@
+.mDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.imgDiv {
+  width: 30%;
+}
+
+.imgDiv img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.textDiv {
+  width: 65%;
+}
+
+.textDiv p {
+  color: rgba(0, 0, 0, 0.76);
+  margin: 7px 0px;
+  font-size: 14px;
+}
+
+.textDiv h5 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.ruppe {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #ed3237 !important;
+  margin: 0px 0px 10px !important;
+}
+
+.close {
+  background-color: #ed3237;
+  color: white;
+  border: 2px solid #ed3237;
+}
+
+.close:hover {
+  background-color: white !important;
+  color: #ed3237 !important;
+  border: 2px solid #ed3237 !important;
+}
+
+.icons {
+  margin: 20px 0px !important;
+}
+
+.icon1 {
+  margin-right: 10px;
+  background-color: #3b5998;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon2 {
+  margin-right: 10px;
+  background-color: #1da1f2;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon3 {
+  margin-right: 10px;
+  background-color: #db4a39;
+  padding: 6px;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .mDiv {
+    /* display: block; */
+    align-items: normal;
+  }
+
+  .textDiv p {
+    font-size: 12px;
+  }
+  .textDiv h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .mDiv {
+    display: block;
+  }
+
+  .textDiv {
+    width: 100%;
+  }
+  .textDiv p {
+    font-size: 12px;
+  }
+  .textDiv h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .imgDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .imgDiv img {
+    width: 50%;
+  }
+  .modalTitle{
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

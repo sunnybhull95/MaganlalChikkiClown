@@ -1,0 +1,106 @@
+.container {
+  padding: 5px 20px;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  height: 20px;
+}
+
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  background: transparent;
+}
+
+.range::-webkit-slider-thumb {
+  pointer-events: all;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: e-resize;
+  border: 2px solid #ff395c;
+  position: relative;
+  top: -6px;
+  z-index: 1;
+}
+
+.sliderTrack {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #ff395c;
+  border-radius: 4px;
+  /* z-index: 1; */
+}
+
+.sliderRange {
+  position: absolute;
+  height: 5px;
+  background: #dddddd;
+  border-radius: 4px;
+  /* z-index: 2; */
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  width: 130px;
+  padding: 3px 10px;
+  border: 1px solid #ddd;
+  font-size: 11px;
+}
+
+.filterButton {
+  background-color: #ff395c;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.priceRange {
+  font-size: 10.5px;
+  margin-top: 15px;
+  color: #6a6969;
+}
+
+.flexDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .flexDiv {
+    display: block;
+  }
+
+  .filterButton {
+    margin-top: 10px;
+  }
+
+  .priceRange {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+}

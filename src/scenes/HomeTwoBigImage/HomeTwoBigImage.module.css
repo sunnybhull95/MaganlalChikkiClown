@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  width: 100%;
+  background-color: #6666661d;
+}
+
+.flexDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.div {
+  width: 50%;
+  position: relative;
+}
+
+.div img {
+  width: 100%;
+}
+
+.whiteBG {
+  background-color: rgba(255, 255, 255, 0.202);
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  display: none;
+}
+
+.div:hover .whiteBG {
+  display: block;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .flexDiv {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .flexDiv {
+    padding: 10px;
+    display: block;
+  }
+
+  .div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

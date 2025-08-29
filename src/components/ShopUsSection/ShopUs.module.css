@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pDiv {
+  padding: 30px 100px;
+  background-color: #6666661d;
+}
+
+.cflex {
+  width: 23%;
+  margin-right: 30px;
+  order: 1;
+}
+
+.categoriesDiv {
+  width: 100%;
+  background-color: white;
+  border-top: 2px solid #ff395c;
+  border-bottom: 2px solid #ff395c;
+  padding: 10px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.categoriesDiv h6 {
+  padding: 0px 20px 10px;
+  border-bottom: 2px solid #6666661d;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.categoriesDiv p {
+  padding: 10px 20px;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.categoriesDiv p:hover {
+  color: #ff395c;
+  cursor: pointer;
+}
+
+.priceDiv {
+  width: 100%;
+  background-color: white;
+  padding: 10px 0px;
+}
+
+.priceDiv h6 {
+  padding: 0px 20px 10px;
+  border-bottom: 2px solid #6666661d;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.ShopimgDiv {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.ShopimgDiv img {
+  width: 100%;
+}
+
+.flexDiv {
+  display: flex;
+}
+
+.cflex2 {
+  width: 77%;
+  order: 2;
+}
+
+.activeLink {
+  color: #ff395c;
+  font-weight: bold;
+}
+
+.inactiveLink {
+  color: black;
+}
+
+.inactiveLink:hover {
+  color: #ff395c;
+}
+
+/* Add this to your ShopUs.module.css */
+.activeLink {
+  color: #ff395c; /* Change color to match the highlight color */
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .pDiv {
+    padding: 20px;
+  }
+
+  .cflex {
+    width: 30%;
+  }
+
+  .cflex2 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .pDiv {
+    padding: 10px;
+  }
+  .flexDiv {
+    display: block;
+  }
+  .cflex {
+    width: 100%;
+    order: 2;
+  }
+  .cflex2 {
+    width: 99%;
+    order: 1;
+  }
+}

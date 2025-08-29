@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.imgDiv {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6666661d;
+  flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.whiteBG {
+  background-color: rgba(255, 255, 255, 0.289);
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  display: none;
+}
+
+.relative:hover .whiteBG {
+  display: block;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .imgDiv {
+    padding: 20px;
+  }
+  .img {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .imgDiv {
+    padding: 10px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .img {
+    margin-right: 20px;
+  }
+}
