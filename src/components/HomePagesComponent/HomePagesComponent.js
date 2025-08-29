@@ -23,18 +23,18 @@ const HomePagesComponent = () => {
       <HomeThreeImage />
 
       {/* given below is Chiiki Header & Product section  */}
-      <ProductsHeader img={chikkiHeaderIcon} title="CHIKKI" backGroundColor="pink" divBorder="pinkBorder" hover="pinkHover" setActiveFilter={setActiveFilter}/>
-      <ProductSection apiId="1" img={roseChikkiImg} buttonValue="Chikki" activeFilter={activeFilter}/>
+      <ProductsHeader img={chikkiHeaderIcon} alt="img" title="CHIKKI" backGroundColor="pink" divBorder="pinkBorder" hover="pinkHover" setActiveFilter={setActiveFilter}/>
+      <ProductSection apiId="1" img={roseChikkiImg} alt="img" buttonValue="Chikki" activeFilter={activeFilter}/>
 
       <HomeTowImage />
 
       {/* given below is Fudge Header & Product section  */}
-      <ProductsHeader img={fudgeHeaderIcon} title="FUDGE" backGroundColor="blue" divBorder="blueBorder" hover="BlueHover" setActiveFilter={setActiveFilter}/>
-      <ProductSection apiId="2" img={chocklateFudgeImg} buttonValue="Fudge" activeFilter={activeFilter}/>
+      <ProductsHeader img={fudgeHeaderIcon} title="FUDGE" alt="img" backGroundColor="blue" divBorder="blueBorder" hover="BlueHover" setActiveFilter={setActiveFilter}/>
+      <ProductSection apiId="2" img={chocklateFudgeImg} alt="img" buttonValue="Fudge" activeFilter={activeFilter}/>
     
       {/* given below is DryFruitRoll Header & Product section  */}
-      <ProductsHeader img={dryFruitRollHeaderIcon} title="DRY FRUIT ROLL" backGroundColor="golden" divBorder="goldenBorder" hover="GoldenHover" setActiveFilter={setActiveFilter}/>
-      <ProductSection apiId="4" img={DryFruitRollImg} buttonValue="Dry Fruit Roll" activeFilter={activeFilter}/>
+      <ProductsHeader img={dryFruitRollHeaderIcon} alt="img" title="DRY FRUIT ROLL" backGroundColor="golden" divBorder="goldenBorder" hover="GoldenHover" setActiveFilter={setActiveFilter}/>
+      <ProductSection apiId="4" img={DryFruitRollImg} alt="img" buttonValue="Dry Fruit Roll" activeFilter={activeFilter}/>
 
       <HomeTwoBigImage />
       <RedBoxs />

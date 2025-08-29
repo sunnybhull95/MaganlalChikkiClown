@@ -203,7 +203,7 @@ const CardDetails = () => {
         </div>
         <div className={style.flexDiv}>
           <div className={style.cDiv1}>
-            <img src={LogoBanner} />
+            <img src={LogoBanner} alt="img"/>
           </div>
           <div className={style.cDiv2}>
             <div
@@ -216,6 +216,7 @@ const CardDetails = () => {
                 src={product.images}
                 alt={product.title}
                 style={{ width: "300px" }}
+                
               />
             </div>
             <div className={style.textDiv}>

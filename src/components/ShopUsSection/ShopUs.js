@@ -3,7 +3,6 @@ import PriceRangeFilter from "../PriceRange/PriceRange";
 import Shopimg from "../../images/ShopImage.jpg";
 import ShopProductsComponent from "../ShopProductsComponent/ShopProductsComponent";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import PathComponent from "../PathComponent/PathComponent";
 
 // left side filter section
@@ -67,7 +66,7 @@ const ShopUs = () => {
               <PriceRangeFilter setPriceRange={setPriceRange}/>
             </div>
             <div className={style.ShopimgDiv}>
-              <img src={Shopimg} />
+              <img src={Shopimg} alt="img" />
             </div>
           </div>
           <div className={style.cflex2}>

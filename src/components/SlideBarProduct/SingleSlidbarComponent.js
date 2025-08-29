@@ -39,7 +39,7 @@ const SingleSlidbarComponent = ({ apiId,icons ,title,bgColor}) => {
             ? style.blueBg
             : ""
         }`}>
-        <h2><img src={icons} />{title}</h2>
+        <h2><img src={icons} alt="img"/>{title}</h2>
         <div className={style.sliderButtons}>
           <button onClick={handlePrev} ><IoMdArrowDropleft/></button>
           <button onClick={handleNext}><IoMdArrowDropright/></button>

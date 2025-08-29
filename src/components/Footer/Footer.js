@@ -53,7 +53,7 @@ const Footer = () => {
         <div className={style.Fdiv}>
           <div className={style.fCDiv}>
             <Link to="/">
-              <img src={imgLogo} />
+              <img src={imgLogo} alt="img"/>
             </Link>
             <p style={{ color: "rgba(0, 0, 0, 0.786)", cursor: "unset" }}>
               A Legacy of 100+ years, sweetening people's life…
@@ -103,7 +103,7 @@ const Footer = () => {
             © 2020 <span> www.maganlalchikki.in</span>. Powered By{" "}
             <span>Reallaunchers.com</span>. All Rights Reserved.
           </p>
-          <img src={PayPal} />
+          <img src={PayPal} alt="img"/>
         </div>
       </div>
     </>

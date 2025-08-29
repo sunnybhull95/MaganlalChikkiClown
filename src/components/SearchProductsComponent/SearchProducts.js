@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { IoMdArrowDropright, IoMdArrowDropleft } from "react-icons/io";
 import ViewModal from "../ViewModal/ViewModal";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import React from "react";
+
 
 const SearchProducts = () => {
   const [getData, setData] = useState([]);

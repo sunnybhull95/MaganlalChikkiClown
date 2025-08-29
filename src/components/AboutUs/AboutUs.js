@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./AboutUs.module.css";
 import getAPI from "../../api/getapi";
-import { Link } from "react-router-dom";
+
 
 import { Spinner } from "react-bootstrap";
 
@@ -46,7 +46,7 @@ const AboutUs = () => {
           <div className={style.mDiv} key={aData.id || index}>
             <div className={style.flexDiv}>
               <div className={style.imgDiv}>
-                <img src={aData.image} />
+                <img src={aData.image} alt="img"/>
                 <div className={style.abDiv}></div>
               </div>
               <div className={style.textDiv}>

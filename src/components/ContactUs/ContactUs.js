@@ -1,6 +1,5 @@
 import { useState } from "react";
 import style from "./ContactUs.module.css";
-import { Link } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import PathComponent from "../PathComponent/PathComponent";
 
@@ -108,6 +107,7 @@ const ContactUs = () => {
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60468.551443637196!2d73.48883932800291!3d18.696078358247863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8017890cc0399%3A0x125f023d78642c31!2sLICEL%20Office!5e0!3m2!1sen!2sin!4v1733139497939!5m2!1sen!2sin"
           width="100%"
           height="600"
+          alt="img"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

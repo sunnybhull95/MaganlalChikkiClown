@@ -243,7 +243,7 @@ const ShopProductsComponent = ({
               <Col className={style.col} key={Cdata.id}>
                 <div className={style.Sdiv}>
                   <div className={style.RelativeDiv}>
-                    <img src={Cdata.images} className={style.Pimg} />
+                    <img src={Cdata.images} className={style.Pimg} alt="img"/>
                     <div className={style.AbsoluteDiv}>
                       <div className={style.ButtonsKing}>
                         <button

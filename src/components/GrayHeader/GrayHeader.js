@@ -30,10 +30,10 @@ const GrayHeader = () => {
                 </ul>
            </div>
             <div className={style.bgBtn}>
-            <button className={style.english}> <img src={en} style={{width:"18px", marginRight:"3px"}} /> English <IoIosArrowDown style={{paddingTop:"2px"}} /> </button>
+            <button className={style.english}> <img src={en} alt="img" style={{width:"18px", marginRight:"3px"}} /> English <IoIosArrowDown style={{paddingTop:"2px"}} /> </button>
                 <ul className={style.dropdownlist}>
-                    <li><img src={en} style={{width:"18px", marginRight:"5px"}} />English</li>
-                    <li><img src={ar} style={{width:"18px", marginRight:"5px"}} />Arabic</li>
+                    <li><img alt="img" src={en} style={{width:"18px", marginRight:"5px"}} />English</li>
+                    <li><img alt="img" src={ar} style={{width:"18px", marginRight:"5px"}} />Arabic</li>
                 </ul>
             </div>
             <div className={style.bgBtn}>
