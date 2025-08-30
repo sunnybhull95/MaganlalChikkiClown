@@ -13,9 +13,9 @@ const GrayHeader = () => {
         
         <div className={style.d1}>
           <p className={style.p2}>Welcome to Maganlal Chikki, Lonavla! </p>
-          <a className={style.a1} href="">Join Free</a>
+          <a className={style.a1} href="/">Join Free</a>
           <p className={style.p2}>or</p>
-          <a className={style.a1} href="">Sign in</a>
+          <a className={style.a1} href="/">Sign in</a>
         </div>
 
         <div className={style.bgBtnP}>

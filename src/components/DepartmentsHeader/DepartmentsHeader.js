@@ -122,7 +122,7 @@ const DepartmentsHeader = () => {
                 </NavLink>
               </li>
             </ul>
-            <a className={style.adepartments}>Special Offer!</a>
+            <a className={style.adepartments} href="/">Special Offer!</a>
           </div>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"

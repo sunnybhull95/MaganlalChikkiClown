@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6010742.css",
+    "main.js": "/static/js/main.d87b2ad6.js",
+    "static/js/453.601a1c1f.chunk.js": "/static/js/453.601a1c1f.chunk.js",
+    "static/media/ChocolateFudgeImg.jpg": "/static/media/ChocolateFudgeImg.98cd27b5761b56c6fda1.jpg",
+    "static/media/DryFruitRoll.jpg": "/static/media/DryFruitRoll.3ce03f67f05e62abe30d.jpg",
+    "static/media/rose_chikki.jpg": "/static/media/rose_chikki.420a00e60ce3f7d1a763.jpg",
+    "static/media/stawberryFudge.jpg": "/static/media/stawberryFudge.8d026685037679baa33f.jpg",
+    "static/media/celebrationBox.jpg": "/static/media/celebrationBox.0b6eb61c058bfd356935.jpg",
+    "static/media/380.jpg": "/static/media/380.16adfc65897d658c7451.jpg",
+    "static/media/web-logo-3.png": "/static/media/web-logo-3.547376d5b6d3fbb87106.png",
+    "static/media/ShopImage.jpg": "/static/media/ShopImage.8b049ea5330e9caf1e01.jpg",
+    "static/media/3802.jpg": "/static/media/3802.5fe700e46f327cf4efd5.jpg",
+    "static/media/bg-header.jpg": "/static/media/bg-header.025cab5765eb1e767d25.jpg",
+    "static/media/paypal.png": "/static/media/paypal.94344ea2c93168bcb1b5.png",
+    "index.html": "/index.html",
+    "main.f6010742.css.map": "/static/css/main.f6010742.css.map",
+    "main.d87b2ad6.js.map": "/static/js/main.d87b2ad6.js.map",
+    "453.601a1c1f.chunk.js.map": "/static/js/453.601a1c1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6010742.css",
+    "static/js/main.d87b2ad6.js"
+  ]
+}

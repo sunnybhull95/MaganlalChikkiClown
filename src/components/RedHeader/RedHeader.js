@@ -22,7 +22,7 @@ const RedHeader = () => {
               <p className={style.p1}>
                 Sign up to receive the latest Top deal exclusives discounts
               </p>
-              <a className={style.learn} href="">
+              <a className={style.learn} href="/">
                 Learn more
               </a>
             </div>
