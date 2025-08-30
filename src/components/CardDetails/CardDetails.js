@@ -1,4 +1,4 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import {Link,  useLocation, useNavigate } from "react-router-dom";
 import style from "./CardDetails.module.css";
 import LogoBanner from "../../images/ShopImage.jpg";
 import { useRef, useState } from "react";
