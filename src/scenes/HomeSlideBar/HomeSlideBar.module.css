@@ -1,5 +1,5 @@
 .mainDivC {
-  padding: 20px 100px;
+  /* padding: 20px 100px; */
   background-color: #6666661d;
 }
 
@@ -10,18 +10,18 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
-  .mainDivC {
+  /* .mainDivC {
     padding: 20px;
-  }
+  } */
   .img{
     height: 350px;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
-  .mainDivC {
+  /* .mainDivC {
     padding: 10px;
-  }
+  } */
   .img{
     height: 200px;
   }
