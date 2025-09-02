@@ -16,6 +16,5 @@ This project replicates the Maganlal Chikkiwala theme with smooth UI and dynamic
 - **React-Router-Dom**
 
 
----
 
 
