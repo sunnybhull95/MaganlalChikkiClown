@@ -6,7 +6,7 @@ This project replicates the Maganlal Chikkiwala theme with smooth UI and dynamic
 ---
 
 ## 🚀 Live Demo
-[View the Live Site](https://maganlalchikkiclown.netlify.app/)
+[View the Live Site](https://maganlalchikkiclone.netlify.app/)
 
 ---
 
